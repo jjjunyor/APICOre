@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.EquipamentoController.#ctor(CorporateCore.Domain.Interface.Services.ITipoOcorrenciaEquipamentoService)">
+            <summary>
+            Adicionar os serviços usados no modulo de equipamento.
+            </summary>
+            <param name="tipoOcorrencia"></param>
+        </member>
+        <member name="M:WebApi.Controllers.EquipamentoController.Consultar(System.String,System.Nullable{System.Int32},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean})">
+            <summary>
+            Consulta os Diagnosticos parametrizados
+            </summary>
+            <param name="Fabricante"></param>
+            <param name="codigoSegmento"></param>
+            <param name="modeloEquipamento"></param>
+            <param name="visivelTecnico"></param>
+            <param name="visivelCLiente"></param>
+            <returns></returns>
+        </member>
+      <member name="M:WebApi.Controllers.EquipamentoController.GetAllOcorrencias())">
+        <summary>
+          retorna todas ocorrencias
+        </summary>
+       
+        <returns></returns>
+      </member>
+      
+    </members>
+</doc>
